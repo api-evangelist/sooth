@@ -1,7 +1,16 @@
 aid: sooth
 name: Sooth
-description: Sooth is a company surfaced as a portfolio company of felicis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Sooth (Sooth Labs, Inc.) is an AI research company building a "World Model for
+  Global Foresight" — a continuously trained forecasting engine that integrates
+  economic, geopolitical, and operational signals into calibrated probability
+  forecasts for high-stakes decisions. Its platform is described in three parts:
+  the Sooth Engine (a world model that reasons across domains), Sooth Chronology
+  (autonomous agents that collect and prioritize signals), and Sooth Proof
+  (cryptographically committed, calibrated forecasts with an auditable track
+  record). Founded by veterans of frontier AI at Meta and Carnegie Mellon and
+  backed by Felicis, the company is pre-product as of mid-2026 and does not yet
+  publish a public API, developer portal, or documentation.
 url: https://raw.githubusercontent.com/api-evangelist/sooth/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +18,30 @@ x-backed-by:
 - felicis
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
+image: https://soothlabs.com/favicon.ico
 tags:
 - Company
+- Artificial Intelligence
+- Forecasting
+- World Model
+- Foresight
+- Decision Intelligence
+- Risk
+- Machine Learning
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,4 +50,13 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://sooth.inc
+  url: https://soothlabs.com
+- type: LinkedIn
+  url: https://www.linkedin.com/company/soothlabs
+- type: DomainSecurity
+  url: security/sooth-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
