@@ -51,8 +51,8 @@ tags:
 - World Model
 - Foresight
 - Decision Intelligence
-- Risk
-- Machine-Learning
+- Risk Management
+- Machine Learning
 tags_raw:
 - Company
 - Artificial Intelligence
@@ -62,6 +62,7 @@ tags_raw:
 - Decision Intelligence
 - Risk
 - Machine Learning
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane
